@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thought House</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-black">
+    <!-- Navigation Bar -->
+    <nav class="bg-black shadow-md fixed top-0 w-full z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center py-4">
+                <!-- Logo and Title Container -->
+                <div class="flex items-center mr-auto">
+                    <img src="thoughthouse.png" alt="Brand Logo" class="h-12 w-12 mr-2 rounded-lg"> <!-- Add your logo path here -->
+                    <a href="#" class="text-2xl font-mono font-bold text-white">Thought House</a>
+                </div>
+    
+                <!-- Mobile menu button -->
+                <div class="lg:hidden">
+                    <button id="nav-toggle" class="text-white focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+    
+                <!-- Nav Links -->
+                <div class="hidden lg:flex space-x-8 ml-auto">
+                    <a href="index.html" class="text-white font-mono hover:bg-purple-600 hover:text-gray-900 px-3 py-2 rounded-md transition">Home</a>
+                    <a href="manifesto.html" class="text-white font-mono hover:bg-purple-600 hover:text-gray-900 px-3 py-2 rounded-md transition">Manifesto</a>
+                    <a href="#" class="text-white font-mono hover:bg-purple-600 hover:text-gray-900 px-3 py-2 rounded-md transition"></a>
+                </div>
+            </div>
+    
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="lg:hidden hidden">
+                <a href="index.html" class="block py-2 text-white hover:bg-purple-600 hover:text-gray-900 px-3 py-2 rounded-md transition">Home</a>
+                <a href="manifesto.html" class="block py-2 text-white hover:bg-purple-600 hover:text-gray-900 px-3 py-2 rounded-md transition">Manifesto</a>
+                <a href="#" class="block py-2 text-white hover:bg-purple-600 hover:text-gray-900 px-3 py-2 rounded-md transition"></a>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="container mx-auto mt-20 px-4 md:px-8 lg:px-12 text-white">
+        <div>
+
+            <!-- Manifesto Section -->
+            <section>
+                <div class="text-center">
+                    <h2 class="text-3xl font-bold mb-4">More Quotes</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                        <div class="bg-pink-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Success is not the absence of failure; it's the persistence through failure." – Aisha Tyler</h6>
+                            </div>
+                        </div>
+                        <div class="bg-blue-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"What we fear doing most is usually what we most need to do." – Tim Ferriss</h6>
+                            </div>
+                        </div>
+
+
+
+                        <div class="bg-yellow-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Success is not how high you have climbed, but how you make a positive difference to the world." – Roy T. Bennett</h6>
+                            </div>
+                        </div>
+                        <div class="bg-gray-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"If you want to lift yourself up, lift up someone else." – Booker T. Washington</h6>
+                            </div>
+                        </div>
+                        <div class="bg-red-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Failure is simply the opportunity to begin again, this time more intelligently." – Henry Ford</h6>
+                            </div>
+                        </div>
+                        <div class="bg-purple-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"The secret of getting ahead is getting started." – Mark Twain</h6>
+                            </div>
+                        </div>
+                        <div class="bg-blue-500 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Your limitation—it’s only your imagination." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-yellow-500 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Push yourself, because no one else is going to do it for you." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-pink-500 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Great things never come from comfort zones." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-gray-400 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Dream it. Wish it. Do it." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-pink-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Success doesn’t just find you. You have to go out and get it." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-blue-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"The harder you work for something, the greater you’ll feel when you achieve it." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-yellow-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Dream bigger. Do bigger." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-gray-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Don’t stop when you’re tired. Stop when you’re done." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-red-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Wake up with determination. Go to bed with satisfaction." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-purple-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Do something today that your future self will thank you for." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-blue-400 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Little things make big days." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-yellow-400 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"It’s going to be hard, but hard does not mean impossible." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-purple-500 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"The key to success is to focus on goals, not obstacles." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-gray-400 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Dream it. Believe it. Build it." – Unknown</h6>
+                            </div>
+                        </div>
+                        <div class="bg-pink-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Believe in yourself and all that you are." – Christian D. Larson</h6>
+                            </div>
+                        </div>
+                        <div class="bg-blue-300 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"You are braver than you believe, stronger than you seem, and smarter than you think." – A.A. Milne</h6>
+                            </div>
+                        </div>
+                        <div class="bg-gray-200 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"The only way to achieve the impossible is to believe it is possible." – Charles Kingsleigh</h6>
+                            </div>
+                        </div>
+                        <div class="bg-red-500 dark:bg-white-500 text-black font-bold rounded shadow-sm p-4 mb-4">
+                            <div class="w-full">
+                                <h6 class="text-1xl font-mono">"Success is not for the lazy." – Unknown</h6>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        </section>
+                        <br><br>
+                        <section>
+                            <div class="text-center">
+                            <a href="showpage2.html" class="bg-purple-600 text-white font-mono px-6 py-3 rounded-lg hover:bg-purple-700">Want to See more Quotes</a>
+                            <a href="index.html" class="bg-purple-600 text-white font-mono px-6 py-3 rounded-lg hover:bg-purple-700">Go back</a>
+                        </div>
+                            </section>
+                            <br><br><br>
+                            </div>
+                            </main>
+
+
+
+
+ <!-- JavaScript to toggle the mobile menu -->
+ <!-- JavaScript to toggle the mobile menu -->
+ <script>
+    const navToggle = document.getElementById('nav-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    navToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
+<footer class="w-full bg-purple-600 text-white py-8 justify-center">
+    <div class="container mx-auto px-4 md:px-8 lg:px-12">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        
+        <!-- About Section -->
+        <div>
+          <h3 class="text-white text-lg font-mono font-semibold mb-4">About Thought House</h3>
+          <p class="text-white font-mono text-sm leading-relaxed">
+            Thought House is a dedicated team committed to assisting individuals in discovering meaningful quotes that resonate with their thoughts and feelings. The essence of their slogan, "Finding Quote, But Not getting any, We are here for You," reflects their mission to bridge the gap between seekers and the inspiring words they need. <br><br>They provide a curated collection of quotes, encouraging users to explore, copy, and share these gems with others. Thought House not only aims to enrich people's lives through the power of words but also fosters a positive community, as encapsulated in their cheerful sign-off, "Ooh and Have a good Day." By creating a platform where people can easily find and express themselves through quotes, Thought House enhances the daily lives of its users, inspiring reflection and connection.
+        </p>
+        </div>
+    
+        <!-- Quick Links Section -->
+        <div>
+          <h3 class="text-white text-lg font-mono font-semibold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="text-white font-mono hover:text-gray-200 transition">Home</a></li>
+            <li><a href="manifesto.html" class="text-white font-mono hover:text-gray-200 transition">Manifesto</a></li>
+          </ul>
+        </div>
+    
+        <!-- Social Media Section -->
+        <div>
+          <h3 class="text-white text-lg font-mono font-semibold mb-4">Connect with Us</h3>
+          <div class="flex space-x-4">
+            <a href="" class="text-white hover:text-gray-200 transition">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12-12-5.373-12-12 5.373-12 12-12zm0 2c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm2.5 15h-5v-8h5v8zm-2.5-10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+</body>
+</html>

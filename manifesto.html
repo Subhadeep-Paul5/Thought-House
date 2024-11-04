@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thought House</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-black">
+    <!-- Navigation Bar -->
+    <nav class="bg-black shadow-md fixed top-0 w-full z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center py-4">
+                <!-- Logo and Title Container -->
+                <div class="flex items-center mr-auto">
+                    <img src="thoughthouse.png" alt="Brand Logo" class="h-12 w-12 mr-2 rounded-lg"> <!-- Add your logo path here -->
+                    <a href="#" class="text-2xl font-mono font-bold text-white">Thought House</a>
+                </div>
+    
+                <!-- Mobile menu button -->
+                <div class="lg:hidden">
+                    <button id="nav-toggle" class="text-white focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+    
+                <!-- Nav Links -->
+                <div class="hidden lg:flex space-x-8 ml-auto">
+                    <a href="index.html" class="text-white font-mono hover:bg-purple-600 hover:text-gray-900 px-3 py-2 rounded-md transition">Home</a>
+                    <a href="manifwsto.html" class="text-white font-mono hover:bg-purple-600 hover:text-gray-900 px-3 py-2 rounded-md transition">Manifesto</a>
+                    <a href="#" class="text-white font-mono hover:bg-purple-600 hover:text-gray-900 px-3 py-2 rounded-md transition"></a>
+                </div>
+            </div>
+    
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="lg:hidden hidden">
+                <a href="index.html" class="block py-2 text-white hover:bg-purple-600 hover:text-gray-900 px-3 py-2 rounded-md transition">Home</a>
+                <a href="manifesto.html" class="block py-2 text-white hover:bg-purple-600 hover:text-gray-900 px-3 py-2 rounded-md transition">Manifesto</a>
+                <a href="#" class="block py-2 text-white hover:bg-purple-600 hover:text-gray-900 px-3 py-2 rounded-md transition"></a>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="container mx-auto mt-20 px-4 md:px-44 lg:px-44 text-white">
+        <div>
+
+            <!-- Manifesto Section -->
+            <section>
+                <div class="text-center">
+                    <h1 class="text-6xl font mono text-center mb-4"><br>Why We Are</h1>
+                    <h2 class="text-2xl font-mono text-justify font-bold mb-4"><br>Finding the perfect quote can sometimes feel like an elusive quest. You might be searching for inspiration, motivation, or just a few words that resonate with your current mood or situation. Yet, despite your efforts, the right quote might seem just out of reach. Perhaps you’ve scoured books, social media, and websites, only to find that nothing quite captures what you’re feeling or wanting to express. It’s in these moments that it’s essential to remember: you are not alone in this search.
+<br><br>
+                        If you find yourself struggling to find that perfect quote, don’t worry! We are here for you, ready to help brighten your day with a collection of words that can uplift and inspire. Whether you need a quote about love, friendship, success, or even just a little humor to lighten your mood, we’ve curated a selection that might just spark that “aha!” moment you’ve been waiting for.
+                        <br><br>                        
+                        So why not take a moment to check out our quotes? You might discover a gem that resonates with you deeply—one that encapsulates your thoughts, feelings, or aspirations in a way you couldn’t articulate yourself. Once you find a quote that speaks to you, feel free to copy it and share it with others. Quotes have a unique way of connecting us, sparking conversations, and even providing comfort to those who may be feeling the same way.
+                        <br><br>
+                        As you embark on this journey of finding inspiration, remember that each day is a new opportunity to discover something beautiful—whether it’s through a quote, a moment of kindness, or simply enjoying the world around you. So go ahead, explore our collection of quotes, and let their wisdom fill your day with positivity.
+                        <br><br>
+                        Ooh, and as you navigate through this quest, we hope you have a wonderful day! Embrace the little moments, cherish the words that inspire you, and remember that every quote has the power to transform your outlook. Happy quote hunting!</h2>
+                    
+                            </section>
+                            <br><br><br>
+        </div>
+    </main>
+
+
+
+
+ <!-- JavaScript to toggle the mobile menu -->
+ <!-- JavaScript to toggle the mobile menu -->
+ <script>
+    const navToggle = document.getElementById('nav-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    navToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
+<footer class="w-full bg-purple-600 text-white py-8 justify-center">
+    <div class="container mx-auto px-4 md:px-8 lg:px-12">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        
+        <!-- About Section -->
+        <div>
+          <h3 class="text-white text-lg font-mono font-semibold mb-4">About Thought House</h3>
+          <p class="text-white font-mono text-sm leading-relaxed">
+            Thought House is a dedicated team committed to assisting individuals in discovering meaningful quotes that resonate with their thoughts and feelings. The essence of their slogan, "Finding Quote, But Not getting any, We are here for You," reflects their mission to bridge the gap between seekers and the inspiring words they need. <br><br>They provide a curated collection of quotes, encouraging users to explore, copy, and share these gems with others. Thought House not only aims to enrich people's lives through the power of words but also fosters a positive community, as encapsulated in their cheerful sign-off, "Ooh and Have a good Day." By creating a platform where people can easily find and express themselves through quotes, Thought House enhances the daily lives of its users, inspiring reflection and connection.
+        </p>
+        </div>
+    
+        <!-- Quick Links Section -->
+        <div>
+          <h3 class="text-white text-lg font-mono font-semibold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="text-white font-mono hover:text-gray-200 transition">Home</a></li>
+            <li><a href="manifesto.html" class="text-white font-mono hover:text-gray-200 transition">Manifesto</a></li>
+          </ul>
+        </div>
+    
+        <!-- Social Media Section -->
+        <div>
+          <h3 class="text-white text-lg font-mono font-semibold mb-4">Connect with Us</h3>
+          <div class="flex space-x-4">
+            <a href="" class="text-white hover:text-gray-200 transition">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12-12-5.373-12-12 5.373-12 12-12zm0 2c-5.5 0-10 4.5-10 10s4.5 10 10 10 10-4.5 10-10-4.5-10-10-10zm2.5 15h-5v-8h5v8zm-2.5-10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+</body>
+</html>
